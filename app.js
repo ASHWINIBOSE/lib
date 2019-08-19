@@ -11,6 +11,6 @@ app.use(express.static(path.join(__dirname,"/public")));
 app.get("/",function(req,res){
     res.render("index",{pagetitle:"Library",nav:[{link:"/books",title:"BOOKS"},{link:"/authors",title:"AUTHORS"}]});
 });
-app.listen(8088,function(req,res){
+app.listen(process.env.PORT || 8088,function(req,res){
     console.log("server started listening..")
 })
