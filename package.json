@@ -6,7 +6,7 @@
   "dependencies": {
     "collection-visit": "^1.0.0",
     "define-property": "^2.0.2",
-    "dot-prop": "^4.2.0",
+    "dot-prop": "^5.1.1",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "extend-shallow": "^3.0.2",
